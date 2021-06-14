@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b8ab66-1d7a-4c60-9684-7a0ac0836d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/laratrust.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/laratrust_seeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_08_173626_laratrust_setup_tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/LaratrustSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/user/view.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cpc_laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cpc_laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_06_14_141807_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/post/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/inc/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/inc/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -183,6 +171,8 @@
       <updated>1614950678821</updated>
       <workItem from="1614950689648" duration="5159000" />
       <workItem from="1620491610118" duration="3933000" />
+      <workItem from="1620636811474" duration="97000" />
+      <workItem from="1623679703529" duration="3639000" />
     </task>
     <servers />
   </component>
@@ -193,10 +183,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="59" width="897" height="678" key="search.everywhere.popup" timestamp="1620493585880">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1620636906588">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="175" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1024.738@0.0.1024.738" timestamp="1614952347674" />
-    <state x="233" y="59" width="897" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1620493585880" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1620636906588" />
+    <state x="233" y="59" width="897" height="678" key="search.everywhere.popup" timestamp="1623680769730">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="233" y="59" width="897" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1623680769730" />
   </component>
 </project>

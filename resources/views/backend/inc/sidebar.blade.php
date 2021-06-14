@@ -12,6 +12,10 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     User Data
                 </a>
+                <a class="nav-link collapsed" href="{{ route('post.index') }}" >
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                    Post
+                </a>
             </div>
         </div>
         <div class="sb-sidenav-footer">

@@ -24,3 +24,13 @@ Route::get('/home/users', 'HomeController@userlist')->name('user.list');
 
 Route::get('/user', 'UserController@index')->name('user.homepage');
 Route::get('/admin', 'AdminController@index')->name('admin.homepage');
+
+
+// CRUD START
+Route::get('/post', 'PostController@index')->name('post.index');
+Route::post('post-create', 'PostController@store')->name('post.store');
+//  INDEX ->  Data Show
+// CREATE -> Show Form GET Method ->
+// STORE ->  POST Method
+// UPDATE ->
+// DELETE ->
